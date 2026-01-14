@@ -2,51 +2,74 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>BET ON YOUR TALENT</title>
+  <title>BET</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
       margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background: #0b1e3a;
+      background: #0b1c2d;
       color: white;
+      font-family: Arial, Helvetica, sans-serif;
       display: flex;
-      align-items: center;
       justify-content: center;
+      align-items: center;
       height: 100vh;
-      text-align: center;
+    }
+    .frame {
+      width: 320px;
+      background: #16283f;
+      border-radius: 22px;
+      padding: 22px;
     }
     .box {
-      background: #132b52;
-      padding: 40px;
+      height: 48px;
+      background: #203a5a;
+      border-radius: 14px;
+      margin-bottom: 12px;
+    }
+    .gift {
+      display: flex;
+      gap: 10px;
+      margin: 10px 0;
+    }
+    .gift div {
+      flex: 1;
+      height: 42px;
+      background: #203a5a;
+      border-radius: 12px;
+    }
+    .heart {
+      text-align: center;
+      font-size: 26px;
+      color: red;
+      margin: 10px 0;
+    }
+    .send {
+      background: #f5c400;
+      color: black;
+      text-align: center;
+      padding: 14px;
       border-radius: 16px;
-      max-width: 600px;
-    }
-    h1 {
-      color: #ff4fa3;
-      margin-bottom: 10px;
-    }
-    p {
-      opacity: 0.9;
-      line-height: 1.6;
-    }
-    .tag {
-      margin-top: 20px;
-      font-size: 14px;
-      opacity: 0.7;
+      font-weight: bold;
     }
   </style>
 </head>
 <body>
-  <div class="box">
-    <h1>BET ON YOUR TALENT</h1>
-    <p>
-      Live Interactive Social Simulator<br>
-      A new way to connect talent, space, and opportunity.
-    </p>
-    <div class="tag">
-      Prototype · Concept Preview · No Signup Required
+  <div class="frame">
+    <div class="box"></div>
+
+    <div class="box"></div>
+    <div class="box"></div>
+
+    <div class="gift">
+      <div></div>
+      <div></div>
+      <div></div>
     </div>
+
+    <div class="heart">♥</div>
+
+    <div class="send">SEND</div>
   </div>
 </body>
 </html>
